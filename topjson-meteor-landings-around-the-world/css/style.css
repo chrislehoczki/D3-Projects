@@ -1,0 +1,38 @@
+body {
+	text-align: center;
+	font-family: "Oswald";
+}
+
+path {
+  stroke: white;
+  stroke-width: 0.25px;
+  fill: grey;
+}
+
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+  
+.title h1 {
+  font-size: 3em
+}
+
+svg {
+	margin: 30px auto;
+	
+	box-shadow: 0 0 10px 10px gray;
+}
+
+div.tooltip {   
+  position: absolute;           
+  padding: 2px;             
+  font: 12px;  
+  color: white;
+  text-align: center;
+  border: 1px solid black;       background: black;  
+  pointer-events: none;         
+}

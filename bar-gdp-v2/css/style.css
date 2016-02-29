@@ -1,0 +1,84 @@
+body {
+  font-family: Oswald;
+  text-align: center;
+  padding: 50px;
+}
+
+svg {
+  margin: 0px auto;
+}
+
+
+
+.bar:hover {
+  fill: green;
+}
+
+.text { 
+  fill: gray;
+}
+
+.axis path,
+.axis line {
+				fill: none;
+				stroke: black;
+				shape-rendering: geometricPrecision;
+			}
+			
+.axis text {
+				font-size: 11px;
+			}
+
+.title {
+  font-size: 3em;
+}
+
+.sub-title {
+  font-size: 2em;
+}
+
+.label {
+  font-weight: bolder;
+}
+
+div.tooltip {   
+  position: absolute;           
+  text-align: center;                              
+  padding: 2px;             
+  font: 12px;        
+  background: lightsteelblue;   
+  border: 1px solid black;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}
+
+footer {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 25%;
+  margin: 40px auto;
+}
+
+footer ul {
+  text-indent: none;
+  list-style-type: none;
+  padding: 3px;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 20px;
+  
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: black;
+}
+footer ul li a:hover {
+  color: slateblue;
+}
+
+

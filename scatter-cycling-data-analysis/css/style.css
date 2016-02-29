@@ -1,0 +1,98 @@
+body {
+  font-family: Oswald;
+  text-align: center;
+  padding: 50px;
+}
+
+svg {
+  margin: 0px auto;
+  border: 1px solid black;
+}
+
+.bar:hover {
+  fill: green;
+}
+
+.text { 
+  fill: gray;
+}
+
+.axis path,
+.axis line {
+				fill: none;
+				stroke: black;
+				shape-rendering: geometricPrecision;
+			}
+			
+.axis text {
+				font-size: 11px;
+			}
+
+.title {
+  font-size: 3em;
+}
+
+.sub-title {
+  font-size: 2em;
+}
+
+.label {
+  font-weight: bolder;
+}
+
+div.tooltip, div.detail {   
+  position: absolute;           
+  text-align: center;             width: 300px;
+  padding: 2px;             
+  font: 12px;  
+  color: white;
+     
+  border: 1px solid black;       background: black;  
+  pointer-events: none;         
+}
+
+.doper {
+  background: red;
+}
+
+.clean {
+  background: lightsteelblue;
+}
+
+footer {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 25%;
+  margin: 40px auto;
+}
+
+footer ul {
+  text-indent: none;
+  list-style-type: none;
+  padding: 3px;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 20px;
+  
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: black;
+}
+
+footer ul li a:hover {
+  color: slateblue;
+}
+
+.layer {
+width: 100%;
+height: 100%;
+background-color: black;
+}
+
+

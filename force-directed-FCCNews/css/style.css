@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  font-family: "Oswald"  
+}
+
+
+.title {
+  text-align: center;
+  margin-top: 50px  
+}
+
+  
+.title h1 {
+  font-size: 3em
+}
+
+  
+
+.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+.node circle {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+text {
+  font: 10px sans-serif;
+  pointer-events: none;
+}
+
+div.tooltip {   
+  position: absolute;           
+  text-align: center;                              
+  padding: 7px;             
+  font: 12px;        
+  background: white;   
+  border: 1px solid black;                
+  pointer-events: none;         
+}
+
+.profile-pic {
+  border-radius: 100%;
+}
+
+.red {
+  background-color: red;
+  fill: red;
+}
+
