@@ -1,3 +1,5 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/chris_is_phillips/pen/vLWZKq.
+# A Bar Graph Showing Yearly US GDP
 
- 
+## Overview
+
+Uses D3JS to create a bar graph from JSON data.

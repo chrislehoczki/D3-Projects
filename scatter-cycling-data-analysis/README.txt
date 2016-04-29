@@ -1,3 +1,5 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/chris_is_phillips/pen/jWaLvd.
+# A Scatter Graph Showing Doping in Cycling
 
- 
+## Overview
+
+A scatter graph that shows doping in cycling with tooltips of allegations made. Data based on climbing times up Alp D'Huez.

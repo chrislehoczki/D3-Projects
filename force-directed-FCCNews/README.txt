@@ -1,3 +1,5 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/chris_is_phillips/pen/JGagvW.
+# A Force Directed Graph Showing Recent FCC News
 
- 
+## Overview
+
+Uses D3JS to create a force directed graph with gravity, interactivity, and tooltip data.
